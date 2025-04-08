@@ -1,6 +1,6 @@
 <template>
   <header class="navbar">
-    <el-menu mode="horizontal" default-active="home" class="nav-container">
+    <el-menu :ellipsis="false" mode="horizontal" default-active="home" class="nav-container">
       <el-menu-item index="home" @click="scrollToSection('home')">Home </el-menu-item>
       <el-menu-item index="projects" @click="scrollToSection('projects')">Projects </el-menu-item>
       <el-menu-item index="contact" @click="scrollToSection('contact')">Contact</el-menu-item>

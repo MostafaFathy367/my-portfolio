@@ -80,4 +80,9 @@ onMounted(() => {
   background-color: #333 !important;
   color: #fff !important;
 }
+@media (max-width: 500px) {
+  .nav-container {
+    width: 100%;
+  }
+}
 </style>
